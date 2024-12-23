@@ -5,7 +5,7 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-DEVICE_PATH := device/infinix/Infinix-X657B
+DEVICE_PATH := device/infinix/X657B
 
 # For building with minimal manifest
 ALLOW_MISSING_DEPENDENCIES := true
@@ -24,7 +24,7 @@ TARGET_USES_64_BIT_BINDER := true
 OVERRIDE_TARGET_FLATTEN_APEX := true
 
 # Bootloader
-TARGET_BOOTLOADER_BOARD_NAME := Infinix-X657B
+TARGET_BOOTLOADER_BOARD_NAME := X657B
 TARGET_NO_BOOTLOADER := true
 
 # Display
@@ -43,8 +43,8 @@ BOARD_MKBOOTIMG_ARGS += --tags_offset $(BOARD_KERNEL_TAGS_OFFSET)
 BOARD_KERNEL_IMAGE_NAME := Image
 BOARD_INCLUDE_DTB_IN_BOOTIMG := true
 BOARD_KERNEL_SEPARATED_DTBO := true
-TARGET_KERNEL_CONFIG := Infinix-X657B_defconfig
-TARGET_KERNEL_SOURCE := kernel/infinix/Infinix-X657B
+TARGET_KERNEL_CONFIG := X657B_defconfig
+TARGET_KERNEL_SOURCE := kernel/infinix/X657B
 
 # Kernel - prebuilt
 TARGET_FORCE_PREBUILT_KERNEL := true

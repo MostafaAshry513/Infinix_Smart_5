@@ -1,4 +1,4 @@
-# Android device tree for Infinix Infinix X657B (Infinix-X657B)
+# Android device tree for Infinix Infinix X657B (X657B)
 
 ```
 #
